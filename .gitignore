@@ -1,0 +1,9 @@
+# Model checkpoints are large and not tracked in this repo
+checkpoints/
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
