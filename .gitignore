@@ -1,6 +1,11 @@
-# Model checkpoints are large and not tracked in this repo
+# Model checkpoints are large (~391MB) and exceed GitHub's 100MB limit
 checkpoints/
 *.pt
+
+# Training / inference outputs
+outputs/
+training_history.json
+prediction.json
 
 # Python
 __pycache__/
